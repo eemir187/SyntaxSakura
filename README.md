@@ -26,8 +26,10 @@ The game can be compiled and run using the provided `Makefile`.
 ### 🔧 To compile the game binary:
 
 ```bash
-make bin        # Compiles the binary into 'assignment'
-./assignment configs/config_01.txt    # Runs the game with a given config file
-make test       # Runs all public test cases
-make reset      # Resets all config files to their original state
-make clean      # Removes all compiled binaries and object files
+make bin                 # Compiles the binary into 'assignment'
+make run                 # Runs the game with a given config file
+make reset               # Resets all config files to their original state
+make clean               # Removes all compiled binaries and object files
+```
+
+
